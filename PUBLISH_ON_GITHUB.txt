@@ -1,0 +1,19 @@
+GITHUB PAGES QUICK START
+========================
+
+1. Unzip the package on your computer.
+2. At github.com click + -> New repository.
+3. Name it alwasam-portfolio; select Public; Create repository.
+4. In the repository choose Add file -> Upload files.
+5. Drag ALL CONTENTS of the unzipped folder onto the upload page.
+   IMPORTANT: index.html and assets/ must be at the repository root.
+   Do not upload the ZIP alone.
+6. Click Commit changes.
+7. Open Settings -> Pages -> Build and deployment.
+8. Source: Deploy from a branch; Branch: main; Folder: /(root); Save.
+9. When GitHub displays Visit site, click it.
+
+Typical link: https://YOUR-USERNAME.github.io/alwasam-portfolio/
+
+The photos are in assets/ and are referenced via relative paths.
+Future lab photo instructions: assets/research/README.md.

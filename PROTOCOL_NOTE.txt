@@ -1,0 +1,5 @@
+Resume protocol update | November 2026
+The resume link in index.html now points to the revised one-page PDF. Portfolio photos remain outside the PDF resume.
+Suggested interview preparation: research the organization, map experience to the role, practice short evidence-based answers, arrive early, and bring your resume/notebook/pen.
+
+Before publishing lab photos publicly, confirm that the research supervisor approves release of unpublished experimental images.
