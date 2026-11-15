@@ -1,66 +1,37 @@
 # Alwasam Alshammari — Engineering Portfolio
 
-A lightweight, responsive portfolio website designed for **GitHub Pages**. No React, Node.js, build tools, or paid hosting are required.
+A lightweight, responsive, GitHub Pages website. No build process is needed.
 
-## Preview locally
+## Latest update
+- Mechanical engineering focus broadened beyond robotics.
+- Featured work retitled as Selected Projects; robot-in-tunnel image used for robotics project.
+- Morin hydrate page and card include only research description, not unrelated photos.
+- Cobalt oxide section includes poster-reported CO and N₂O results, with a clear caveat.
+- Mawhiba placed above KFUPM in experience timeline.
+- Python and MATLAB removed from completed skills (MATLAB noted only as future learning).
+- Ministry of Education Manfas recognition added.
+- PDF résumé replaced with revised one-page version and GitHub profile link removed.
 
-Open `index.html` in a browser. For a more accurate preview, serve this folder:
+## Updating your EXISTING GitHub Pages website
+You do NOT need a new repository or to redo Settings > Pages.
 
-```bash
-python -m http.server 8000
-```
+1. Download `Alwasam_Portfolio_Revision_GitHub.zip` and choose **Extract All** on Windows.
+2. Open https://github.com/alwassam/alwasam-portfolio
+3. Click **Add file > Upload files** (on the Code tab).
+4. Open the extracted folder and select ALL files and folders inside it (Ctrl+A), then drag them onto GitHub's upload page. Files with the same name should be replaced by their new versions.
+5. Scroll down and choose **Commit changes** to `main`.
+6. Visit https://alwassam.github.io/alwasam-portfolio/ and do a hard refresh (Ctrl+Shift+R) to clear the old website version.
 
-Then visit `http://localhost:8000`.
+Your original Pages branch remains **main / (root)**. Do not upload the ZIP as one file; upload its extracted contents. Keep `index.html` in the repository root and preserve the `assets/` folder structure.
 
-## Publish to GitHub Pages (no coding required)
+## Files
+- `index.html`: website
+- `styles.css`: responsive design
+- `script.js`: mobile navigation
+- `assets/`: website photos and experiment images
+- `Alwasam_Alshammari_Resume.pdf`: updated one-page résumé
+- `resume.html`: optional printable HTML résumé
+- `.nojekyll`: GitHub Pages compatibility
 
-1. Create a free account or sign into [GitHub](https://github.com/).
-2. Choose **New repository**, and name it `alwasam-portfolio` (or any other repository name). Choose **Public**, then create the repository.
-3. **Extract the ZIP file** you received. In the new GitHub repository, choose **Add file → Upload files**. Upload **all items inside the extracted folder**, not the ZIP itself and not the enclosing folder. Keep `index.html`, `styles.css`, `script.js`, `favicon.svg`, `assets/`, and `Alwasam_Alshammari_Resume.pdf` in the same relative structure.
-4. Click **Commit changes**.
-5. Go to **Settings → Pages**. Under **Build and deployment**, select **Deploy from a branch**. Choose **main** and **/(root)**, then **Save**.
-6. After GitHub publishes the site, select **Visit site** in Settings → Pages. Your address will normally be `https://YOUR-USERNAME.github.io/alwasam-portfolio/`.
-
-**Important:** GitHub Pages requires `index.html` at the root of the selected publishing folder. The previous ZIP put it inside another folder; this package is already organized correctly.
-
-## File layout
-
-```
-index.html                           # Homepage and portfolio content
-styles.css                           # Responsive styling
-script.js                            # Mobile navigation
-favicon.svg                          # Browser tab icon
-.nojekyll                            # Tells GitHub Pages to serve static files as-is
-Alwasam_Alshammari_Resume.pdf       # Linked PDF résumé
-assets/
-  wyie-award.webp                    # Kuala Lumpur award photo
-  wyie-silver-certificate.webp       # Silver Medal certificate
-  wyie-merit-certificate.webp        # Merit certificate
-  cubi-certificate.webp              # Penn State design award
-  profile.webp                       # Portrait
-  research/README.md                 # Where future lab photos go
-```
-
-## Why pictures might have been broken before
-
-- The old ZIP contained an enclosing folder; `index.html` must be at the published root.
-- If only `index.html` is uploaded, the `assets/` files are missing.
-- GitHub filenames are case-sensitive. `wyie-award.webp` is not the same as `WYIE-Award.webp`.
-- Keep relative paths like `./assets/wyie-award.webp` — do not change them to `/assets/...` because GitHub project sites are hosted in a repository subpath.
-
-This version has relative paths and local images; it does not depend on Google Drive, Instagram, or hotlinked photographs.
-
-## Update the website
-
-- Edit text in `index.html`.
-- Adjust design in `styles.css`.
-- Change the top photograph by replacing `assets/wyie-award.webp` with a file of the same name.
-- To add lab photos, read `assets/research/README.md`.
-- Change the résumé by replacing `Alwasam_Alshammari_Resume.pdf`.
-- Push or commit changes to `main`; GitHub Pages publishes updated content automatically.
-
-## Privacy and research-publication considerations
-
-This public portfolio includes a name, university, email address, awards, and user-supplied images. Review these before publishing. Lab data, unreleased manuscripts, and photographs of experiments should be shared only after permission from your research supervisor.
-
-Created November 2026.
+## Important
+Ask your research supervisor before publishing any previously unpublished lab data or photographs. The cobalt conversion percentages are taken from the supplied exhibition poster and should not be interpreted as independently verified performance claims. The poster's N₂O label must not be conflated with NOx.

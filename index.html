@@ -1,402 +1,371 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Alwasam Alshammari is a mechanical engineering student at Penn State focused on robotics, prototyping, and undergraduate research.">
-  <meta name="theme-color" content="#0f2334">
-  <title>Alwasam Alshammari | Portfolio</title>
-  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
-  <link rel="preload" as="image" href="./assets/research/hero-lab-portrait.webp" fetchpriority="high">
-  <link rel="stylesheet" href="./styles.css">
-  <script src="./script.js" defer></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Alwasam Alshammari is a Penn State mechanical engineering student exploring engineering design, prototyping, and experimental research across robotics, emissions, and materials." name="description"/>
+<meta content="#0f2334" name="theme-color"/>
+<title>Alwasam Alshammari | Portfolio</title>
+<link href="./favicon.svg" rel="icon" type="image/svg+xml"/>
+<link as="image" fetchpriority="high" href="./assets/research/hero-lab-portrait.webp" rel="preload"/>
+<link href="./styles.css" rel="stylesheet"/>
+<script defer="" src="./script.js"></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" id="top">
+<div class="container nav-wrap">
+<a class="brand" href="#top">Alwasam <span>Alshammari</span></a>
+<button aria-controls="site-nav" aria-expanded="false" aria-label="Open navigation menu" class="menu-toggle">
+<span></span><span></span><span></span>
+</button>
+<nav aria-label="Primary navigation" class="site-nav" id="site-nav">
+<a href="#projects">Projects</a>
+<a href="#experience">Research</a>
+<a href="#skills">Skills</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+<main id="main">
+<section class="hero">
+<div class="container hero-grid">
+<div class="hero-copy">
+<p class="eyebrow">MECHANICAL ENGINEERING · DESIGN · EXPERIMENTATION</p>
+<h1>Hi, I’m <span>Alwasam Alshammari</span>.</h1>
+<p class="hero-lead">Mechanical engineering student at Penn State exploring design, prototyping, testing, and engineering research across different fields.</p>
+<p class="hero-sub">I enjoy turning research questions into real experiments, building useful hardware, and learning how mechanical systems behave in the real world.</p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="#projects">View projects</a>
+<a class="btn btn-secondary" href="./Alwasam_Alshammari_Resume.pdf" target="_blank" rel="noopener">View résumé</a>
+</div>
+<div class="hero-context"><span class="context-label">CURRENTLY</span><div><strong>Undergraduate Researcher · Penn State LiBR Lab</strong><small>Exploring robotics as one part of a broader mechanical engineering journey.</small></div></div>
+</div>
+<figure class="hero-photo-card">
+<img alt="Alwasam standing in the robotics lab in front of an experimental setup." height="640" src="./assets/research/hero-lab-portrait.webp" width="991"/>
+<figcaption>
+<span class="photo-label">CURRENT</span>
+<strong>Undergraduate Research · LiBR Lab</strong>
+<span>Penn State · Experimental robotics and mechanical prototyping</span>
+</figcaption>
+</figure>
+</div>
+</section>
+<section class="section section-light" id="projects">
+<div class="container">
+<div class="section-head">
+<div>
+<p class="eyebrow">FEATURED WORK</p>
+<h2>Selected projects.</h2>
+</div>
+<p class="section-intro">Work across mechanical design, robotics, automotive emissions, and materials research.</p>
+</div>
+<div class="project-grid">
+<article class="project-card">
+<div class="project-media">
+<img alt="Three-link wheeled robot operating inside a curved wooden tunnel in the Penn State lab." height="1536" src="./assets/research/robot-in-track.webp" width="1152"/>
+<span class="project-tag">Current Research</span>
+</div>
+<div class="project-body">
+<p class="project-meta">Penn State · 2026–Present</p>
+<h3>Three-Link Robot Locomotion</h3>
+<p>Investigating shape-changing wheeled robots in confined tunnels, while supporting experiments, data collection, and iterative 3D-printed component design.</p>
+<div class="project-links"><a href="#project-robotics">See details →</a></div>
+</div>
+</article>
+<article class="project-card">
+<div class="project-media">
+<img alt="Penn State Engineering Design Showcase certificate recognizing Alwasam's Cubi project team as People's Choice Award winners." height="888" src="./assets/cubi-certificate.webp" width="1179"/>
+<span class="project-tag">Design Project</span>
+</div>
+<div class="project-body">
+<p class="project-meta">Penn State · Spring 2026</p>
+<h3>Cubi Design Project</h3>
+<p>Worked on a client-driven first-year engineering design project that later won the People’s Choice Award at the Engineering Design Showcase.</p>
+<div class="project-links"><a href="#project-cubi">See details →</a></div>
+</div>
+</article>
+<article class="project-card">
+<div class="project-media">
+<img alt="Alwasam holding his WYIE 2024 award certificate outdoors in Kuala Lumpur with the Petronas Towers behind him." height="1457" src="./assets/wyie-award.webp" width="1179"/>
+<span class="project-tag">Award-Winning Research</span>
+</div>
+<div class="project-body">
+<p class="project-meta">KFUPM · 2023–2024</p>
+<h3>Cobalt Oxide Catalyst Research</h3>
+<p>Evaluated cobalt oxide catalyst performance across 300–500°C; our project poster reports 99.9% CO conversion and 83.9–98.8% N₂O conversion.</p>
+<div class="project-links"><a href="#project-cobalt">See details →</a></div>
+</div>
+</article>
+<article class="project-card">
+<div class="project-media project-text-cover"><div class="text-cover-inner"><span class="cover-mark">RESEARCH · 2024</span><strong>MORIN<br/>HYDRATE</strong><span class="cover-sub">SOLID DISPERSION<br/>UV–VIS · DSC</span></div><span class="project-tag">120-hour Research Internship</span></div>
+<div class="project-body">
+<p class="project-meta">Mawhiba · 2024</p>
+<h3>Morin Hydrate Pharmaceutical Research</h3>
+<p>Completed 120 hours of supervised research comparing Morin hydrate solid dispersions made with PVP and mannitol using dissolution tests, UV–Vis, and DSC.</p>
+<div class="project-links"><a href="#project-morin">See details →</a></div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<section class="section" id="project-robotics">
+<div class="container detail-layout">
+<div class="detail-sticky">
+<p class="eyebrow">PROJECT DETAILS</p>
+<h2>Current research in robotics.</h2>
+<p class="detail-summary">My current lab experience is one part of my wider mechanical engineering interests. I support experiments on shape-changing wheeled robots, test setups, and practical component design.</p>
+<ul class="detail-facts">
+<li><strong>Focus:</strong> Three-link robot locomotion</li>
+<li><strong>Role:</strong> Experiment support, data collection, CAD, 3D printing</li>
+<li><strong>Tools:</strong> Fusion 360, 3D printing, Vicon preparation, lab testing</li>
+</ul>
+</div>
+<div class="detail-content">
+<article class="detail-card">
+<h3>The project</h3>
+<p>We study how a three-link wheeled robot moves by changing its body shape. The robot has three rigid sections and two joints, and its motion depends on gait patterns, wheel orientation, and how it interacts with the surrounding surface.</p>
+<p>A big part of the work is comparing theory and experiments: running physical tests in curved or constrained tunnels, recording the robot’s motion, and improving the hardware used in those experiments.</p>
+<p class="detail-note">Experimental data are still being analyzed; no performance conclusion is claimed from these photographs.</p></article>
+<article class="detail-card">
+<h3>My contribution</h3>
+<ul>
+<li>Helped set up and record experiments in tunnel environments.</li>
+<li>Worked on 3D-printed removable covers for the robot, including battery and electronics protection.</li>
+<li>Supported Vicon motion-tracking preparation and experimental workflow.</li>
+<li>Documented trials and contributed to building a cleaner experimental setup.</li>
+</ul>
+</article>
+<article class="detail-card gallery-card">
+<h3>Research gallery</h3>
+<div class="gallery-grid gallery-grid-large">
+<figure><img alt="Laptop in front of the robotics experiment setup while recording or monitoring a trial." src="./assets/research/lab-setup.webp"/><figcaption>Experiment monitoring and recording setup</figcaption></figure>
+<figure><img alt="Three-link robot inside the wooden curved tunnel." src="./assets/research/robot-in-track.webp"/><figcaption>Robot inside the curved tunnel</figcaption></figure>
+<figure><img alt="Two three-link robots placed side by side on a table." src="./assets/research/robot-pair.webp"/><figcaption>Comparing robot configurations</figcaption></figure>
+<figure><img alt="Close-up of a 3D-printed electronics cover being handled by hand." src="./assets/research/cover-closeup.webp"/><figcaption>Close-up of a 3D-printed cover design</figcaption></figure>
+</div>
+</article>
+</div>
+</div>
+</section>
+<section class="section section-light" id="project-cubi">
+<div class="container single-detail">
+<div class="single-detail-head">
+<div>
+<p class="eyebrow">PROJECT DETAILS</p>
+<h2>Cubi Design Project</h2>
+</div>
+<span class="badge">People’s Choice Award · Spring 2026</span>
+</div>
+<div class="single-detail-grid">
+<div class="single-image-card">
+<img alt="Certificate showing Alwasam and teammates as People’s Choice Award winners at the Penn State Engineering Design Showcase." src="./assets/cubi-certificate.webp"/>
+</div>
+<div class="single-copy-card">
+<h3>Overview</h3>
+<p>Cubi was part of a client-driven engineering design project at Penn State. The project emphasized teamwork, design thinking, and communicating a solution clearly to an audience.</p>
+<h3>What it shows about me</h3>
+<ul>
+<li>Team-based design experience</li>
+<li>Ability to communicate and present engineering work</li>
+<li>Recognition through the Engineering Design Showcase</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section class="section" id="project-cobalt">
+<div class="container single-detail">
+<div class="single-detail-head">
+<div>
+<p class="eyebrow">PROJECT DETAILS</p>
+<h2>Cobalt Oxide Catalyst Research</h2>
+</div>
+<span class="badge">WYIE 2024 Silver Medal</span>
+</div>
+<div class="single-detail-grid">
+<div class="single-image-card stack">
+<img alt="Alwasam with the WYIE certificate in Kuala Lumpur." src="./assets/wyie-award.webp"/>
+<img alt="WYIE 2024 silver medal certificate." src="./assets/wyie-silver-certificate.webp"/>
+<a class="poster-link" href="./assets/cobalt-research-poster.webp" rel="noopener" target="_blank"><img alt="Cobalt oxide catalyst research poster presenting experimental setup, XRD, and gas conversion results" loading="lazy" src="./assets/cobalt-research-poster.webp"/><span>Open the full exhibition poster ↗</span></a></div>
+<div class="single-copy-card"><h3>Problem &amp; goal</h3>
+<p>Explore cobalt oxide (Co₂O₃) as a catalyst coating for reducing automotive exhaust pollutants. This supervised project at KFUPM examined catalyst behavior across multiple temperatures.</p>
+<h3>Methods &amp; my role</h3><ul>
+<li>Participated in supervised laboratory testing at <strong>300–500°C</strong> in 50°C increments.</li>
+<li>Interpreted gas-conversion and selectivity tables and assisted with X-ray diffraction (XRD) characterization.</li>
+<li>Presented the work internationally at WYIE 2024 in Kuala Lumpur, where the project received a Silver Medal.</li>
+</ul>
+<h3>Results from the project poster</h3>
+<div class="results-row"><div><strong>99.9%</strong><span>CO conversion reported at all five temperatures</span></div><div><strong>83.9 → 98.8%</strong><span>N₂O conversion, 300°C → 500°C</span></div></div>
+<p class="detail-note">Source: the project’s exhibition poster. These are poster-reported values, not independently verified performance specifications. The results table labels the second pollutant as <strong>N₂O</strong>, which is distinct from NOx.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="section section-light" id="project-morin">
+<div class="container single-detail">
+<div class="single-detail-head">
+<div>
+<p class="eyebrow">PROJECT DETAILS</p>
+<h2>Morin Hydrate Research</h2>
+</div>
+<span class="badge">Mawhiba · Summer 2024</span>
+</div>
+<div class="single-detail-grid morin-no-image">
 
-  <header class="site-header" id="top">
-    <div class="container nav-wrap">
-      <a class="brand" href="#top">Alwasam <span>Alshammari</span></a>
-      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation menu">
-        <span></span><span></span><span></span>
-      </button>
-      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
-        <a href="#projects">Projects</a>
-        <a href="#experience">Research</a>
-        <a href="#skills">Skills</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
+<div class="single-copy-card"><h3>Research question</h3>
+<p>Can solid dispersion formulations improve the dissolution characteristics of Morin hydrate, a poorly water-soluble compound?</p>
+<h3>My contribution · 120 hours</h3>
+<ul>
+<li>Prepared formulations using a solvent-evaporation method with <strong>polyvinylpyrrolidone (PVP)</strong> and <strong>mannitol</strong>.</li>
+<li>Conducted dissolution testing under simulated gastric conditions and compared formulations with pure Morin hydrate.</li>
+<li>Analyzed release profiles using <strong>UV–Vis spectrophotometry</strong> and characterized samples using <strong>differential scanning calorimetry (DSC)</strong>.</li>
+<li>Documented results and presented the project at the end of the Mawhiba research program.</li>
+</ul>
+<p class="detail-note">This project description intentionally uses no unrelated photographs or certificates. Quantitative release results will only be added when validated from the original measurements.</p></div>
+</div>
+</div>
+</section>
+<section class="section" id="experience">
+<div class="container">
+<div class="section-head">
+<div>
+<p class="eyebrow">RESEARCH &amp; EXPERIENCE</p>
+<h2>Short timeline.</h2>
+</div>
+<p class="section-intro">A quick view of my academic and research experience so visitors can understand what I have done without reading everything first.</p>
+</div>
+<div class="timeline">
 
-  <main id="main">
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">MECHANICAL ENGINEERING · ROBOTICS · RESEARCH</p>
-          <h1>Hi, I’m <span>Alwasam Alshammari</span>.</h1>
-          <p class="hero-lead">Mechanical engineering student at Penn State focused on robotics, prototyping, experimental research, and practical design.</p>
-          <p class="hero-sub">I enjoy turning research questions into real experiments, building useful hardware, and learning how mechanical systems behave in the real world.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#projects">View projects</a>
-            <a class="btn btn-secondary" href="./Alwasam_Alshammari_Resume.pdf" target="_blank" rel="noopener">View résumé</a>
-          </div>
-          <div class="hero-stats">
-            <div><strong>03+</strong><span>research experiences</span></div>
-            <div><strong>02</strong><span>major awards</span></div>
-            <div><strong>2029</strong><span>expected graduation</span></div>
-          </div>
-        </div>
-        <figure class="hero-photo-card">
-          <img src="./assets/research/hero-lab-portrait.webp" alt="Alwasam standing in the robotics lab in front of an experimental setup." width="991" height="640">
-          <figcaption>
-            <span class="photo-label">CURRENT</span>
-            <strong>Undergraduate Researcher · LiBR Lab</strong>
-            <span>Penn State · Robotics and experimental prototyping</span>
-          </figcaption>
-        </figure>
-      </div>
-    </section>
 
-    <section id="projects" class="section section-light">
-      <div class="container">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">FEATURED WORK</p>
-            <h2>Best work first.</h2>
-          </div>
-          <p class="section-intro">Each card gives a quick overview. Click “See details” to jump to the full project section with more explanation, photos, and outcomes.</p>
-        </div>
 
-        <div class="project-grid">
-          <article class="project-card">
-            <div class="project-media">
-              <img src="./assets/research/track-overview.webp" alt="Overview of the curved tunnel experimental setup for a three-link robot locomotion project." width="1152" height="1536">
-              <span class="project-tag">Current Research</span>
-            </div>
-            <div class="project-body">
-              <p class="project-meta">Penn State · 2026–Present</p>
-              <h3>Three-Link Robot Locomotion</h3>
-              <p>Built and supported experiments on wheeled three-link robots in curved and constrained tunnels, including setup work, video recording, and 3D-printed component design.</p>
-              <div class="project-links"><a href="#project-robotics">See details →</a></div>
-            </div>
-          </article>
 
-          <article class="project-card">
-            <div class="project-media">
-              <img src="./assets/cubi-certificate.webp" alt="Penn State Engineering Design Showcase certificate recognizing Alwasam's Cubi project team as People's Choice Award winners." width="1179" height="888">
-              <span class="project-tag">Design Project</span>
-            </div>
-            <div class="project-body">
-              <p class="project-meta">Penn State · Spring 2026</p>
-              <h3>Cubi Design Project</h3>
-              <p>Worked on a client-driven first-year engineering design project that later won the People’s Choice Award at the Engineering Design Showcase.</p>
-              <div class="project-links"><a href="#project-cubi">See details →</a></div>
-            </div>
-          </article>
+<article>
+<span>2026–Present</span>
+<div>
+<h3>Undergraduate Researcher · LiBR Lab · Penn State</h3>
+<p>Robotics experiments, tunnel testing, 3D-printed component design, and experimental support for locomotion research.</p>
+</div>
+</article><article>
+<span>Spring 2026</span>
+<div>
+<h3>Cubi Design Project · Penn State</h3>
+<p>Client-driven design work recognized with a People’s Choice Award at the Engineering Design Showcase.</p>
+</div>
+</article><article>
+<span>Summer 2024</span>
+<div>
+<h3>Mawhiba Research Program</h3>
+<p>Pharmaceutical research on Morin hydrate dissolution and material characterization.</p>
+</div>
+</article><article>
+<span>2023–2024</span>
+<div>
+<h3>KFUPM Research Project</h3>
+<p>Cobalt oxide catalytic converter research later recognized with a WYIE 2024 Silver Medal.</p>
+</div>
+</article></div>
+</div>
+</section>
+<section class="section section-light" id="skills">
+<div class="container">
+<div class="section-head compact-head">
+<div>
+<p class="eyebrow">SKILLS &amp; TOOLS</p>
+<h2>Skills &amp; tools.</h2>
+</div>
+</div>
+<div class="skills-grid">
+<article>
+<h3>Design &amp; Engineering</h3>
+<ul>
+<li>Autodesk Fusion 360</li>
+<li>3D printing</li>
+<li>Prototyping</li>
+<li>Mechanical design</li>
+</ul>
+</article>
+<article>
+<h3>Research &amp; Lab</h3>
+<ul>
+<li>Experimental setup</li>
+<li>Data collection</li>
+<li>UV-Vis spectrophotometry</li>
+<li>Differential Scanning Calorimetry (DSC)</li>
+</ul>
+</article>
+<article>
+<h3>Digital tools &amp; communication</h3>
+<ul><li>Vicon Nexus (motion-tracking setup)</li><li>Microsoft Excel</li><li>Research documentation and presentations</li><li>Arabic and English</li></ul>
+</article>
+</div>
+<p class="learning-note"><strong>Next skill to develop:</strong> MATLAB. Not yet listed as a completed technical proficiency.</p></div>
+</section>
+<section class="section" id="awards">
+<div class="container">
+<div class="section-head compact-head">
+<div>
+<p class="eyebrow">RECOGNITION</p>
+<h2>Awards and achievements.</h2>
+</div>
+</div>
+<div class="awards-grid">
+<article class="award-card">
+<img alt="WYIE 2024 Silver Medal certificate" src="./assets/wyie-silver-certificate.webp"/>
+<div>
+<h3>WYIE 2024 Silver Medal</h3>
+<p>Recognized for research on cobalt oxide catalyst coating for emission reduction in catalytic converters.</p>
+</div>
+</article>
+<article class="award-card">
+<img alt="Engineering Design Showcase certificate" src="./assets/cubi-certificate.webp"/>
+<div>
+<h3>People’s Choice Award</h3>
+<p>Penn State Engineering Design Showcase · EDSGN 100 · Spring 2026.</p>
+</div>
+</article>
+<article class="award-card award-card-text"><div aria-hidden="true" class="award-icon">M</div><div><h3>Ministry of Education Excellence Recognition (Manfas)</h3><p>Saudi Arabia · March 2025. Recognized by the Ministry of Education through the Royal Commission for Jubail and Yanbu; awarded in the presence of the Eastern Province Governor.</p></div></article></div>
+</div>
+</section>
+<section class="section section-light" id="about">
+<div class="container about-grid">
+<div class="about-photo-wrap">
+<img alt="Portrait of Alwasam Alshammari" src="./assets/profile.webp"/>
+</div>
+<div class="about-copy">
+<p class="eyebrow">ABOUT ME</p>
+<h2>Who I am.</h2>
+<p>I’m a mechanical engineering student at Penn State interested in how systems are designed, built, tested, and improved. My experiences span automotive emissions research, pharmaceutical materials, engineering design, and now robotics.</p>
+<p>I’m exploring the breadth of mechanical engineering while developing stronger design, analysis, and experimental skills. I’m interested in research collaborations and engineering internships where I can keep learning and contribute to real projects.</p>
+<div class="about-links">
+<a class="btn btn-primary" href="mailto:Axa6841@psu.edu">Email me</a>
 
-          <article class="project-card">
-            <div class="project-media">
-              <img src="./assets/wyie-award.webp" alt="Alwasam holding his WYIE 2024 award certificate outdoors in Kuala Lumpur with the Petronas Towers behind him." width="1179" height="1457">
-              <span class="project-tag">Award-Winning Research</span>
-            </div>
-            <div class="project-body">
-              <p class="project-meta">KFUPM · 2023–2024</p>
-              <h3>Cobalt Oxide Catalyst Research</h3>
-              <p>Conducted supervised experimental research on cobalt oxide nanoparticles for emission reduction in automotive catalytic converters.</p>
-              <div class="project-links"><a href="#project-cobalt">See details →</a></div>
-            </div>
-          </article>
+</div>
+</div>
+</div>
+</section>
+<section class="section contact-section" id="contact">
+<div class="container contact-grid">
+<div>
+<p class="eyebrow">RESUMÉ &amp; CONTACT</p>
+<h2>Let’s connect.</h2>
+<p>If you’d like to discuss research, project work, or opportunities, feel free to reach out.</p>
+</div>
+<div class="contact-card">
+<a href="./Alwasam_Alshammari_Resume.pdf" target="_blank" rel="noopener">View résumé</a>
+<a href="mailto:Axa6841@psu.edu">Axa6841@psu.edu</a>
 
-          <article class="project-card">
-            <div class="project-media">
-              <img src="./assets/wyie-silver-certificate.webp" alt="Certificate image used as a supporting visual for portfolio content." width="945" height="1300">
-              <span class="project-tag">Research Experience</span>
-            </div>
-            <div class="project-body">
-              <p class="project-meta">Mawhiba · 2024</p>
-              <h3>Morin Hydrate Pharmaceutical Research</h3>
-              <p>Investigated dissolution enhancement and antimicrobial-related formulation behavior using solid dispersion and nanotechnology methods.</p>
-              <div class="project-links"><a href="#project-morin">See details →</a></div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="project-robotics" class="section">
-      <div class="container detail-layout">
-        <div class="detail-sticky">
-          <p class="eyebrow">PROJECT DETAILS</p>
-          <h2>Current research in robotics.</h2>
-          <p class="detail-summary">My current work in Penn State’s Locomotion in Biology and Robotics (LiBR) Lab focuses on shape-changing wheeled robots, tunnel experiments, and prototyping.</p>
-          <ul class="detail-facts">
-            <li><strong>Focus:</strong> Three-link robot locomotion</li>
-            <li><strong>Role:</strong> Experiment support, data collection, CAD, 3D printing</li>
-            <li><strong>Tools:</strong> Fusion 360, 3D printing, Vicon preparation, lab testing</li>
-          </ul>
-        </div>
-        <div class="detail-content">
-          <article class="detail-card">
-            <h3>The project</h3>
-            <p>We study how a three-link wheeled robot moves by changing its body shape. The robot has three rigid sections and two joints, and its motion depends on gait patterns, wheel orientation, and how it interacts with the surrounding surface.</p>
-            <p>A big part of the work is comparing theory and experiments: running physical tests in curved or constrained tunnels, recording the robot’s motion, and improving the hardware used in those experiments.</p>
-          </article>
-          <article class="detail-card">
-            <h3>My contribution</h3>
-            <ul>
-              <li>Helped set up and record experiments in tunnel environments.</li>
-              <li>Worked on 3D-printed removable covers for the robot, including battery and electronics protection.</li>
-              <li>Supported Vicon motion-tracking preparation and experimental workflow.</li>
-              <li>Documented trials and contributed to building a cleaner experimental setup.</li>
-            </ul>
-          </article>
-          <article class="detail-card gallery-card">
-            <h3>Research gallery</h3>
-            <div class="gallery-grid gallery-grid-large">
-              <figure><img src="./assets/research/lab-setup.webp" alt="Laptop in front of the robotics experiment setup while recording or monitoring a trial."><figcaption>Experiment monitoring and recording setup</figcaption></figure>
-              <figure><img src="./assets/research/robot-in-track.webp" alt="Three-link robot inside the wooden curved tunnel."><figcaption>Robot inside the curved tunnel</figcaption></figure>
-              <figure><img src="./assets/research/robot-pair.webp" alt="Two three-link robots placed side by side on a table."><figcaption>Comparing robot configurations</figcaption></figure>
-              <figure><img src="./assets/research/cover-closeup.webp" alt="Close-up of a 3D-printed electronics cover being handled by hand."><figcaption>Close-up of a 3D-printed cover design</figcaption></figure>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="project-cubi" class="section section-light">
-      <div class="container single-detail">
-        <div class="single-detail-head">
-          <div>
-            <p class="eyebrow">PROJECT DETAILS</p>
-            <h2>Cubi Design Project</h2>
-          </div>
-          <span class="badge">People’s Choice Award · Spring 2026</span>
-        </div>
-        <div class="single-detail-grid">
-          <div class="single-image-card">
-            <img src="./assets/cubi-certificate.webp" alt="Certificate showing Alwasam and teammates as People’s Choice Award winners at the Penn State Engineering Design Showcase.">
-          </div>
-          <div class="single-copy-card">
-            <h3>Overview</h3>
-            <p>Cubi was part of a client-driven engineering design project at Penn State. The project emphasized teamwork, design thinking, and communicating a solution clearly to an audience.</p>
-            <h3>What it shows about me</h3>
-            <ul>
-              <li>Team-based design experience</li>
-              <li>Ability to communicate and present engineering work</li>
-              <li>Recognition through the Engineering Design Showcase</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="project-cobalt" class="section">
-      <div class="container single-detail">
-        <div class="single-detail-head">
-          <div>
-            <p class="eyebrow">PROJECT DETAILS</p>
-            <h2>Cobalt Oxide Catalyst Research</h2>
-          </div>
-          <span class="badge">WYIE 2024 Silver Medal</span>
-        </div>
-        <div class="single-detail-grid">
-          <div class="single-image-card stack">
-            <img src="./assets/wyie-award.webp" alt="Alwasam with the WYIE certificate in Kuala Lumpur.">
-            <img src="./assets/wyie-silver-certificate.webp" alt="WYIE 2024 silver medal certificate.">
-          </div>
-          <div class="single-copy-card">
-            <h3>Overview</h3>
-            <p>Conducted supervised experimental research on cobalt oxide (Co₂O₃) nanoparticles for reducing carbon monoxide and nitrogen oxides in automotive catalytic converters.</p>
-            <h3>My work</h3>
-            <ul>
-              <li>Participated in laboratory testing and supervised research activities.</li>
-              <li>Evaluated catalytic conversion efficiency under varying temperature conditions.</li>
-              <li>Analyzed reaction performance data related to emission reduction effectiveness.</li>
-              <li>Presented the project in innovation competitions and exhibitions.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="project-morin" class="section section-light">
-      <div class="container single-detail">
-        <div class="single-detail-head">
-          <div>
-            <p class="eyebrow">PROJECT DETAILS</p>
-            <h2>Morin Hydrate Research</h2>
-          </div>
-          <span class="badge">Mawhiba · Summer 2024</span>
-        </div>
-        <div class="single-detail-grid">
-          <div class="single-image-card">
-            <img src="./assets/profile.webp" alt="Profile-style image used as a supporting visual in the portfolio.">
-          </div>
-          <div class="single-copy-card">
-            <h3>Overview</h3>
-            <p>Worked on supervised pharmaceutical research focused on enhancing the dissolution and bioavailability of Morin hydrate using solid dispersion and nanotechnology methods.</p>
-            <h3>My work</h3>
-            <ul>
-              <li>Prepared ethanol-based solvent evaporation formulations.</li>
-              <li>Performed dissolution testing under simulated gastric conditions.</li>
-              <li>Analyzed release profiles using UV-Vis spectrophotometry.</li>
-              <li>Used DSC to characterize materials and confirm structural changes.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="experience" class="section">
-      <div class="container">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">RESEARCH & EXPERIENCE</p>
-            <h2>Short timeline.</h2>
-          </div>
-          <p class="section-intro">A quick view of my academic and research experience so visitors can understand what I have done without reading everything first.</p>
-        </div>
-        <div class="timeline">
-          <article>
-            <span>2026–Present</span>
-            <div>
-              <h3>Undergraduate Researcher · LiBR Lab · Penn State</h3>
-              <p>Robotics experiments, tunnel testing, 3D-printed component design, and experimental support for locomotion research.</p>
-            </div>
-          </article>
-          <article>
-            <span>Spring 2026</span>
-            <div>
-              <h3>Cubi Design Project · Penn State</h3>
-              <p>Client-driven design work recognized with a People’s Choice Award at the Engineering Design Showcase.</p>
-            </div>
-          </article>
-          <article>
-            <span>2023–2024</span>
-            <div>
-              <h3>KFUPM Research Project</h3>
-              <p>Cobalt oxide catalytic converter research later recognized with a WYIE 2024 Silver Medal.</p>
-            </div>
-          </article>
-          <article>
-            <span>Summer 2024</span>
-            <div>
-              <h3>Mawhiba Research Program</h3>
-              <p>Pharmaceutical research on Morin hydrate dissolution and material characterization.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="skills" class="section section-light">
-      <div class="container">
-        <div class="section-head compact-head">
-          <div>
-            <p class="eyebrow">SKILLS & TOOLS</p>
-            <h2>Compact and clear.</h2>
-          </div>
-        </div>
-        <div class="skills-grid">
-          <article>
-            <h3>Design & Engineering</h3>
-            <ul>
-              <li>Autodesk Fusion 360</li>
-              <li>3D printing</li>
-              <li>Prototyping</li>
-              <li>Mechanical design</li>
-            </ul>
-          </article>
-          <article>
-            <h3>Research & Lab</h3>
-            <ul>
-              <li>Experimental setup</li>
-              <li>Data collection</li>
-              <li>UV-Vis spectrophotometry</li>
-              <li>Differential Scanning Calorimetry (DSC)</li>
-            </ul>
-          </article>
-          <article>
-            <h3>Programming & Technical</h3>
-            <ul>
-              <li>MATLAB (learning)</li>
-              <li>Python (learning)</li>
-              <li>Vicon Nexus</li>
-              <li>Documentation & presentations</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="awards" class="section">
-      <div class="container">
-        <div class="section-head compact-head">
-          <div>
-            <p class="eyebrow">RECOGNITION</p>
-            <h2>Awards and achievements.</h2>
-          </div>
-        </div>
-        <div class="awards-grid">
-          <article class="award-card">
-            <img src="./assets/wyie-silver-certificate.webp" alt="WYIE 2024 Silver Medal certificate">
-            <div>
-              <h3>WYIE 2024 Silver Medal</h3>
-              <p>Recognized for research on cobalt oxide catalyst coating for emission reduction in catalytic converters.</p>
-            </div>
-          </article>
-          <article class="award-card">
-            <img src="./assets/cubi-certificate.webp" alt="Engineering Design Showcase certificate">
-            <div>
-              <h3>People’s Choice Award</h3>
-              <p>Penn State Engineering Design Showcase · EDSGN 100 · Spring 2026.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="section section-light">
-      <div class="container about-grid">
-        <div class="about-photo-wrap">
-          <img src="./assets/profile.webp" alt="Portrait of Alwasam Alshammari">
-        </div>
-        <div class="about-copy">
-          <p class="eyebrow">ABOUT ME</p>
-          <h2>Who I am.</h2>
-          <p>I am a mechanical engineering student at Penn State with a strong interest in robotics, design, and applied research. I like learning by building, testing, and improving physical systems.</p>
-          <p>I’m currently looking to keep growing through undergraduate research, engineering project work, and future internship opportunities.</p>
-          <div class="about-links">
-            <a class="btn btn-primary" href="mailto:Axa6841@psu.edu">Email me</a>
-            <a class="btn btn-secondary" href="https://github.com/alwassam" target="_blank" rel="noopener">GitHub</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact-section">
-      <div class="container contact-grid">
-        <div>
-          <p class="eyebrow">RESUMÉ & CONTACT</p>
-          <h2>Let’s connect.</h2>
-          <p>If you’d like to discuss research, project work, or opportunities, feel free to reach out.</p>
-        </div>
-        <div class="contact-card">
-          <a href="./Alwasam_Alshammari_Resume.pdf" target="_blank" rel="noopener">Download résumé</a>
-          <a href="mailto:Axa6841@psu.edu">Axa6841@psu.edu</a>
-          <a href="https://github.com/alwassam" target="_blank" rel="noopener">github.com/alwassam</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-wrap">
-      <strong>Alwasam Alshammari</strong>
-      <span>© <span id="year"></span> · Built for GitHub Pages</span>
-    </div>
-  </footer>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="container footer-wrap">
+<strong>Alwasam Alshammari</strong>
+<span>© <span id="year"></span> · Built for GitHub Pages</span>
+</div>
+</footer>
 </body>
 </html>

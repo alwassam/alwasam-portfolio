@@ -78,3 +78,12 @@ img{display:block;max-width:100%}
   .gallery-grid img{height:210px}
   .footer-wrap{display:grid;justify-content:start;padding:20px 0}
 }
+
+/* Editorial updates · November 2026 */
+.hero-context{display:flex;align-items:center;gap:20px;background:#fff;border:1px solid var(--line);border-radius:20px;padding:17px 20px;max-width:620px;box-shadow:var(--shadow)}
+.context-label{color:var(--accent);font-size:.7rem;letter-spacing:.15em;font-weight:900}.hero-context strong{display:block;font-size:.95rem;color:var(--navy)}.hero-context small{display:block;color:var(--muted);margin-top:3px}
+.project-text-cover{background:linear-gradient(145deg,#0e3140,#195b67);color:white;display:flex;align-items:center;justify-content:center;padding:26px}
+.text-cover-inner{display:grid;gap:14px;width:100%;max-width:350px}.cover-mark{font-weight:800;color:#a4d8d5;font-size:.75rem;letter-spacing:.18em}.text-cover-inner strong{font-size:clamp(2rem,3.4vw,3rem);line-height:1.02;letter-spacing:-.055em}.cover-sub{font-size:.8rem;color:#d0e4e6;font-weight:700;letter-spacing:.08em}
+.morin-no-image{grid-template-columns:1fr;max-width:830px}.results-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:14px 0}.results-row div{background:#e7f3f0;border:1px solid #c9e3dd;border-radius:18px;padding:18px}.results-row strong{display:block;color:#0b5b52;font-size:1.6rem;line-height:1.15}.results-row span{display:block;color:#385c5a;font-size:.9rem;margin-top:8px}.detail-note{padding:13px 16px;background:#f0f5f6;border-left:3px solid var(--accent);color:#53646e;font-size:.86rem;border-radius:0 12px 12px 0}.learning-note{background:#fff;border:1px solid var(--line);padding:14px 18px;border-radius:16px;margin:16px 0 0;color:var(--muted)}
+.award-icon{display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,#eee9ff,#d5d0f5);color:#4c3c91;font-size:2.4rem;font-weight:850;width:100px;height:110px;border-radius:15px}.poster-link{display:grid;gap:6px;color:var(--accent-dark);font-weight:800;font-size:.85rem}.poster-link img{max-height:380px;object-fit:contain;background:#f8fafb}.award-card-text{grid-template-columns:110px 1fr}.award-card-text p{line-height:1.5}
+@media(max-width:700px){.hero-context{align-items:start;flex-direction:column;gap:7px}.results-row{grid-template-columns:1fr}.award-card-text{grid-template-columns:80px 1fr}.award-icon{width:75px;height:80px}}
