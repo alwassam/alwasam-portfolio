@@ -87,3 +87,16 @@ img{display:block;max-width:100%}
 .morin-no-image{grid-template-columns:1fr;max-width:830px}.results-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:14px 0}.results-row div{background:#e7f3f0;border:1px solid #c9e3dd;border-radius:18px;padding:18px}.results-row strong{display:block;color:#0b5b52;font-size:1.6rem;line-height:1.15}.results-row span{display:block;color:#385c5a;font-size:.9rem;margin-top:8px}.detail-note{padding:13px 16px;background:#f0f5f6;border-left:3px solid var(--accent);color:#53646e;font-size:.86rem;border-radius:0 12px 12px 0}.learning-note{background:#fff;border:1px solid var(--line);padding:14px 18px;border-radius:16px;margin:16px 0 0;color:var(--muted)}
 .award-icon{display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,#eee9ff,#d5d0f5);color:#4c3c91;font-size:2.4rem;font-weight:850;width:100px;height:110px;border-radius:15px}.poster-link{display:grid;gap:6px;color:var(--accent-dark);font-weight:800;font-size:.85rem}.poster-link img{max-height:380px;object-fit:contain;background:#f8fafb}.award-card-text{grid-template-columns:110px 1fr}.award-card-text p{line-height:1.5}
 @media(max-width:700px){.hero-context{align-items:start;flex-direction:column;gap:7px}.results-row{grid-template-columns:1fr}.award-card-text{grid-template-columns:80px 1fr}.award-icon{width:75px;height:80px}}
+
+/* Final editorial adjustments */
+.research-poster-cover{display:flex;align-items:center;justify-content:center;background:#e9f2f1;padding:10px}
+.research-poster-cover img{object-fit:contain!important;width:100%;height:100%;background:#f6fafa}
+.project-media img[src*="cubi-showcase"]{object-position:center 61%}
+.morin-detail-grid{grid-template-columns:1fr 1fr;align-items:start}
+.media-link{display:grid;gap:7px;color:var(--accent-dark);font-weight:800;font-size:.84rem}
+.media-link img{width:100%;max-height:460px;object-fit:contain;background:#f8fafb}
+.award-photo-link{display:block;width:110px;height:140px;border-radius:12px;overflow:hidden;border:1px solid var(--line)}
+.award-photo-link img{width:100%;height:100%;object-fit:cover;object-position:center top}
+.awards-grid .award-card:last-child{grid-column:1 / -1}
+@media(max-width:960px){.morin-detail-grid{grid-template-columns:1fr}}
+@media(max-width:700px){.awards-grid .award-card:last-child{grid-column:auto}.award-photo-link{width:100%;max-width:200px;height:115px}}
